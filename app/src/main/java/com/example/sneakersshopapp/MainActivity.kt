@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.colorResource
 import com.example.sneakersshopapp.screens.SecondScreen
 import com.example.sneakersshopapp.ui.theme.SneakersShopAppTheme
 
@@ -18,7 +19,7 @@ class MainActivity : ComponentActivity() {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
+                    color = colorResource(id = R.color.white)
                 ) {
                     SecondScreen()
                 }
