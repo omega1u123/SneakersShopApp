@@ -49,7 +49,7 @@ fun FooterReviews(){
                 modifier = Modifier.size(60.dp)
             )
             Column() {
-                Row(verticalAlignment = Alignment.Top) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
                     Text(text = "Username")
                     Spacer(modifier = Modifier.width(10.dp))
                     Image(
@@ -72,7 +72,7 @@ fun FooterReviews(){
                 modifier = Modifier.size(60.dp)
             )
             Column() {
-                Row(verticalAlignment = Alignment.Top) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
                     Text(text = "Username")
                     Spacer(modifier = Modifier.width(10.dp))
                     Image(
@@ -95,7 +95,7 @@ fun FooterReviews(){
                 modifier = Modifier.size(60.dp)
             )
             Column() {
-                Row(verticalAlignment = Alignment.Top) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
                     Text(text = "Username")
                     Spacer(modifier = Modifier.width(10.dp))
                     Image(
@@ -118,7 +118,7 @@ fun FooterReviews(){
                 modifier = Modifier.size(60.dp)
             )
             Column() {
-                Row(verticalAlignment = Alignment.Top) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
                     Text(text = "Username")
                     Spacer(modifier = Modifier.width(10.dp))
                     Image(
