@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -19,11 +20,12 @@ import com.example.sneakersshopapp.secondScreenParts.TopBar
 
 @Composable
 fun SecondScreen(){
-    Column(modifier = Modifier
+    LazyColumn(modifier = Modifier
         .fillMaxSize()
         .padding(15.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        items(1){ index ->
         TopBar()
         Spacer(modifier = Modifier.height(20.dp))
         SneakerCard()
@@ -33,6 +35,7 @@ fun SecondScreen(){
         SizeBar()
         Spacer(modifier = Modifier.height(20.dp))
         FooterInfo()
+    }
     }
 }
 

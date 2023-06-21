@@ -125,7 +125,8 @@ fun FooterInfo(){
 
        }else if(buttonColor3 == Color.Black && buttonColor1 == Color.Gray && buttonColor2 == Color.Gray){
 
-            Text(text = "Coming soon....")
+           // Text(text = "Coming soon....")
+           FooterReviews()
 
        }
     }
