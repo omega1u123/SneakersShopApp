@@ -1,6 +1,6 @@
 package com.example.sneakersshopapp.screens
 
-import androidx.compose.foundation.layout.Column
+
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
@@ -20,6 +20,8 @@ import com.example.sneakersshopapp.secondScreenParts.TopBar
 
 @Composable
 fun SecondScreen(){
+
+
     LazyColumn(modifier = Modifier
         .fillMaxSize()
         .padding(15.dp),
@@ -37,7 +39,9 @@ fun SecondScreen(){
         FooterInfo()
     }
     }
-}
+
+    }
+
 
 @Preview
 @Composable

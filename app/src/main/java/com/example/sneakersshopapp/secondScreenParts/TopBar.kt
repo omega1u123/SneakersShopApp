@@ -15,6 +15,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.sneakersshopapp.R
 
+
 @Composable
 fun TopBar(){
     Row(modifier = Modifier.fillMaxWidth(),
@@ -30,6 +31,7 @@ fun TopBar(){
             text = "Running",
             fontSize = 35.sp
         )
+
         Image(
             painter = painterResource(id = R.drawable.cart2),
             contentDescription = null,
