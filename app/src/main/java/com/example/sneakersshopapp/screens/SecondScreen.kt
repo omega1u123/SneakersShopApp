@@ -19,7 +19,7 @@ import com.example.sneakersshopapp.secondScreenParts.TopBar
 
 
 @Composable
-fun SecondScreen(){
+fun SecondScreen(onClicked: () -> Unit){
 
 
     LazyColumn(modifier = Modifier
@@ -28,7 +28,7 @@ fun SecondScreen(){
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         items(1){ index ->
-        TopBar()
+        TopBar(onClicked)
         Spacer(modifier = Modifier.height(20.dp))
         SneakerCard()
         Spacer(modifier = Modifier.height(20.dp))
@@ -46,5 +46,5 @@ fun SecondScreen(){
 @Preview
 @Composable
 fun SecondScreenPreview(){
-    SecondScreen()
+    SecondScreen({})
 }
